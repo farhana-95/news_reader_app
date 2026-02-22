@@ -4,7 +4,7 @@ A simple **News Reader application** built with **Flutter**, **Riverpod**, and *
 This project demonstrates a clean, scalable architecture with mock data, bookmark functionality, and reactive UI.
 
 ## Project Structure
-
+```text
 lib/
 ├── core/
 │ ├── services/
@@ -38,6 +38,7 @@ lib/
 │ └── viewmodel/news_list_viewmodel.dart # News state, bookmark logic
 │
 └── main.dart # App entry point & routes
+```
 
 ## Features
 ### Login Screen
