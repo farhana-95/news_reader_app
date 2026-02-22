@@ -15,6 +15,8 @@ lib/
 │ │  ├── loading_state_widget.dart # Loading indicator
 │ │  ├── error_state_widget.dart # Error UI
 │ │  └── empty_state_widget.dart # Empty state UI
+| |  └── app_drawer_widget.dart
+| |  └── gradient_button_widget.dart
 │ └──constants/
 │    └──app_constants.dart
 ├── data/
