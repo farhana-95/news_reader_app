@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'core/theme/app_theme.dart';
-
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:news_reader_app/presentation/screens/login_screen/log_in_screen.dart';
+import 'package:news_reader_app/presentation/screens/news_list/news_list_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -12,11 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'News Reader',
-      theme: AppTheme.light,
-      themeMode: ThemeMode.light,
-      debugShowCheckedModeBanner: false,
+      routes: {
+        "/": (_) => LoginScreen(),
+        "/news": (_) => NewsListScreen(),
+      },
     );
   }
 }
-
