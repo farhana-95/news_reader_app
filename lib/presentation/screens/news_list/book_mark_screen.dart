@@ -13,6 +13,7 @@ class BookmarksScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
+        elevation: 4,
         title: const Text("Bookmarks"),
         centerTitle: true,
       ),
