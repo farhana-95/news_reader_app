@@ -35,7 +35,7 @@ class NewsCard extends StatelessWidget {
                   : Container(
                 height: 200,
                 width: double.infinity,
-                color: Colors.grey,
+                color: Color(0xffb8b9cf),
                 child: const Center(
                   child: Icon(
                     Icons.newspaper,
@@ -78,7 +78,7 @@ class NewsCard extends StatelessWidget {
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color: article.isBookmarked
-                                ? const Color(0xff6a11cb).withValues(alpha: 0.15)
+                                ? const Color(0xff94549f).withValues(alpha: 0.15)
                                 : Colors.grey.shade200,
                           ),
                           child: Icon(
@@ -86,7 +86,7 @@ class NewsCard extends StatelessWidget {
                                 ? Icons.bookmark
                                 : Icons.bookmark_border,
                             color: article.isBookmarked
-                                ? const Color(0xff6a11cb)
+                                ? const Color(0xff7a599e)
                                 : Colors.grey,
                           ),
                         ),

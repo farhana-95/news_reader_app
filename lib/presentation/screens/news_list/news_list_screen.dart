@@ -22,7 +22,7 @@ class NewsListScreen extends ConsumerWidget {
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        backgroundColor: const Color(0xff6a11cb),
+        backgroundColor: const Color(0xff8198da),
         leading: Builder(
           builder: (context) => IconButton(
             icon: const Icon(Icons.menu, color: Colors.white),

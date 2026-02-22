@@ -16,7 +16,7 @@ class BookmarksScreen extends ConsumerWidget {
         iconTheme: IconThemeData(color: Colors.white),
         title: const Text("Bookmarks", style: TextStyle(color: Colors.white)),
         centerTitle: true,
-        backgroundColor: const Color(0xff6a11cb),
+        backgroundColor: const Color(0xff8198da),
       ),
       body: newsState.when(
         loading: () => const Center(child: CircularProgressIndicator()),

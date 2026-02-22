@@ -16,9 +16,9 @@ class LoginScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       body: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xff6a11cb), Color(0xff2575fc)],
+            colors: [Color(0xff6a11cb).withValues(alpha: 0.6), Color(0xff2575fc).withValues(alpha: 0.4)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -39,7 +39,7 @@ class LoginScreen extends ConsumerWidget {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Icon(Icons.newspaper, size: 60, color: Colors.teal),
+                        Icon(Icons.newspaper, size: 60, color: Color(0xaf79b8ff)),
                         const SizedBox(height: 10),
                         const Text(
                           "Welcome to News Reader!",
